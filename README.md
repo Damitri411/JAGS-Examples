@@ -1,0 +1,2 @@
+# DKJAGS
+Run R JAGS
