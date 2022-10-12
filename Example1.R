@@ -1,4 +1,3 @@
-
 #Library
 library(rjags)
 
@@ -51,4 +50,3 @@ c_samp=coda.samples(model=jags, variable.names=c('mu', 'tau'),
 #Extract for set of parameters in total , for each chain= (1,..,n_chain), say chain_no=1
 chain_no=1
 c_samp[[chain_no]]
-
